@@ -9,6 +9,7 @@ import WeatherContext from "./WeatherContext";
 function App() {
   return (
     <div className="App">
+	<p>App </p>
       <SearchPlace />
       <DisplayWeather />
       <Description />
