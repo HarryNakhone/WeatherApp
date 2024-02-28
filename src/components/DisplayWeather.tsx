@@ -12,8 +12,8 @@ import { TbTemperatureCelsius } from "react-icons/tb";
 import { Context } from "../WeatherContext";
 import { TiWeatherWindyCloudy } from "react-icons/ti";
 
-export const api_key = "caac14accda59822802dd2b466daa4b9";
-export const api_endPoint = "https://api.openweathermap.org/data/2.5/";
+export const api_key = "your api key from open weather app";
+export const api_endPoint = "your api endpoint";
 
 const DisplayWeather: React.FC = () => {
   const fetchCurrentWeather = async (lat: number, lon: number) => {
